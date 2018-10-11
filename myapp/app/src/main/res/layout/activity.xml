@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    android:orientation="vertical"
+    tools:context=".Main">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="384dp"
+        android:layout_height="183dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="94dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_name"
+        android:maxWidth="35dp"
+        android:maxHeight="35dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wavelength" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="385dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="94dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/energy" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="384dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="94dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tip" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="384dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="18dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/memory" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="385dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/picos" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="384dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="18dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/standby2" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="385dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/frequency" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="384dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="219dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/ready" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="190dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="848dp"
+        android:layout_marginTop="296dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/max2" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="190dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="1044dp"
+        android:layout_marginTop="296dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/min2" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="145dp"
+        android:gravity="center"
+        android:text="1064"
+        android:textSize="90sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="232dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="512dp"
+        android:layout_marginTop="164dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="80sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="550dp"
+        android:layout_marginTop="550dp"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="80sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="950dp"
+        android:layout_marginTop="156dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="80sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="128dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="296dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/number1" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="129dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="296dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/number2" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="128dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="296dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/number3" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="128dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="388dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/number4" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="129dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="388dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/number5" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="128dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="388dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/save" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="636dp"
+        android:layout_marginTop="424dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
